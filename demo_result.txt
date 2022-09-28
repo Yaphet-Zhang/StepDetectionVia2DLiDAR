@@ -1,0 +1,386 @@
+(14364, 2)
+----------------------
+[[  22.8735  773.    ]
+ [  22.9834  774.    ]
+ [  23.1042  775.    ]
+ ...
+ [  64.8083 1551.    ]
+ [  64.9182 1549.    ]
+ [  65.0281 1544.    ]]
+---------- 1 time scan ----------
+---------- 2 time scan ----------
+---------- 3 time scan ----------
+---------- 4 time scan ----------
+---------- 5 time scan ----------
+---------- 6 time scan ----------
+---------- 7 time scan ----------
+---------- 8 time scan ----------
+---------- 9 time scan ----------
+---------- 10 time scan ----------
+---------- 11 time scan ----------
+---------- 12 time scan ----------
+---------- 13 time scan ----------
+---------- 14 time scan ----------
+---------- 15 time scan ----------
+---------- 16 time scan ----------
+---------- 17 time scan ----------
+---------- 18 time scan ----------
+---------- 19 time scan ----------
+---------- 20 time scan ----------
+---------- 21 time scan ----------
+---------- 22 time scan ----------
+---------- 23 time scan ----------
+---------- 24 time scan ----------
+---------- 25 time scan ----------
+---------- 26 time scan ----------
+---------- 27 time scan ----------
+---------- 28 time scan ----------
+---------- 29 time scan ----------
+---------- 30 time scan ----------
+---------- 31 time scan ----------
+---------- 32 time scan ----------
+---------- 33 time scan ----------
+---------- 34 time scan ----------
+---------- 35 time scan ----------
+---------- 36 time scan ----------
+---------- 37 time scan ----------
+---------- 38 time scan ----------
+scan_split: [0, 378, 756, 1134, 1512, 1890, 2268, 2646, 3024, 3402, 3780, 4158, 4536, 4914, 5292, 5670, 6048, 6426, 6804, 7182, 7560, 7938, 8316, 8694, 9072, 9450, 9828, 10206, 10584, 10962, 11340, 11718, 12096, 12474, 12852, 13230, 13608, 13986, 14364]
+
+
+
+---------- 1 time scan ----------
+all data: 378
+error data: 4
+~~~ NO STEP AHEAD ~~~
+
+
+
+---------- 2 time scan ----------
+all data: 378
+error data: 6
+~~~ NO STEP AHEAD ~~~
+
+
+
+---------- 3 time scan ----------
+all data: 378
+error data: 8
+!!! STEP FOUND AHEAD !!!
+Angle:64.0283, Distance:1369.0
+Step Height: 110, Step Distance: 1230
+
+
+
+---------- 4 time scan ----------
+all data: 378
+error data: 6
+!!! STEP FOUND AHEAD !!!
+Angle:63.5449, Distance:1342.0
+Step Height: 112, Step Distance: 1201
+
+
+
+---------- 5 time scan ----------
+all data: 378
+error data: 7
+!!! STEP FOUND AHEAD !!!
+Angle:63.2153, Distance:1316.0
+Step Height: 116, Step Distance: 1174
+
+
+
+---------- 6 time scan ----------
+all data: 378
+error data: 6
+!!! STEP FOUND AHEAD !!!
+Angle:62.2156, Distance:1278.0
+Step Height: 114, Step Distance: 1130
+
+
+
+---------- 7 time scan ----------
+all data: 378
+error data: 7
+!!! STEP FOUND AHEAD !!!
+Angle:61.452, Distance:1251.0
+Step Height: 112, Step Distance: 1098
+
+
+
+---------- 8 time scan ----------
+all data: 378
+error data: 13
+!!! STEP FOUND AHEAD !!!
+Angle:60.639, Distance:1222.0
+Step Height: 110, Step Distance: 1065
+
+
+
+---------- 9 time scan ----------
+all data: 378
+error data: 8
+!!! STEP FOUND AHEAD !!!
+Angle:59.4965, Distance:1189.0
+Step Height: 106, Step Distance: 1024
+
+
+
+---------- 10 time scan ----------
+all data: 378
+error data: 3
+!!! STEP FOUND AHEAD !!!
+Angle:58.4033, Distance:1156.0
+Step Height: 104, Step Distance: 984
+
+
+
+---------- 11 time scan ----------
+all data: 378
+error data: 5
+!!! STEP FOUND AHEAD !!!
+Angle:57.1069, Distance:1122.0
+Step Height: 100, Step Distance: 942
+
+
+
+---------- 12 time scan ----------
+all data: 378
+error data: 5
+!!! STEP FOUND AHEAD !!!
+Angle:55.9479, Distance:1088.0
+Step Height: 100, Step Distance: 901
+
+
+
+---------- 13 time scan ----------
+all data: 378
+error data: 8
+!!! STEP FOUND AHEAD !!!
+Angle:54.4977, Distance:1057.0
+Step Height: 96, Step Distance: 860
+
+
+
+---------- 14 time scan ----------
+all data: 378
+error data: 12
+!!! STEP FOUND AHEAD !!!
+Angle:53.1079, Distance:1029.0
+Step Height: 92, Step Distance: 822
+
+
+
+---------- 15 time scan ----------
+all data: 378
+error data: 15
+!!! STEP FOUND AHEAD !!!
+Angle:51.7017, Distance:995.0
+Step Height: 93, Step Distance: 780
+
+
+
+---------- 16 time scan ----------
+all data: 378
+error data: 13
+!!! STEP FOUND AHEAD !!!
+Angle:50.0592, Distance:963.0
+Step Height: 91, Step Distance: 738
+
+
+
+---------- 17 time scan ----------
+all data: 378
+error data: 12
+!!! STEP FOUND AHEAD !!!
+Angle:48.4332, Distance:935.0
+Step Height: 89, Step Distance: 699
+
+
+
+---------- 18 time scan ----------
+all data: 378
+error data: 10
+!!! STEP FOUND AHEAD !!!
+Angle:46.8073, Distance:907.0
+Step Height: 89, Step Distance: 661
+
+
+
+---------- 19 time scan ----------
+all data: 378
+error data: 12
+!!! STEP FOUND AHEAD !!!
+Angle:44.9341, Distance:880.0
+Step Height: 87, Step Distance: 621
+
+
+
+---------- 20 time scan ----------
+all data: 378
+error data: 10
+!!! STEP FOUND AHEAD !!!
+Angle:42.7917, Distance:851.0
+Step Height: 85, Step Distance: 578
+
+
+
+---------- 21 time scan ----------
+all data: 378
+error data: 14
+!!! STEP FOUND AHEAD !!!
+Angle:41.2317, Distance:829.0
+Step Height: 86, Step Distance: 546
+
+
+
+---------- 22 time scan ----------
+all data: 378
+error data: 15
+!!! STEP FOUND AHEAD !!!
+Angle:39.9023, Distance:811.0
+Step Height: 87, Step Distance: 520
+
+
+
+---------- 23 time scan ----------
+all data: 378
+error data: 15
+!!! STEP FOUND AHEAD !!!
+Angle:39.8419, Distance:808.0
+Step Height: 89, Step Distance: 517
+
+
+
+---------- 24 time scan ----------
+all data: 378
+error data: 15
+!!! STEP FOUND AHEAD !!!
+Angle:39.7925, Distance:805.0
+Step Height: 91, Step Distance: 515
+
+
+
+---------- 25 time scan ----------
+all data: 378
+error data: 17
+!!! STEP FOUND AHEAD !!!
+Angle:39.7485, Distance:806.0
+Step Height: 90, Step Distance: 515
+
+
+
+---------- 26 time scan ----------
+all data: 378
+error data: 17
+!!! STEP FOUND AHEAD !!!
+Angle:39.809, Distance:808.0
+Step Height: 89, Step Distance: 517
+
+
+
+---------- 27 time scan ----------
+all data: 378
+error data: 16
+!!! STEP FOUND AHEAD !!!
+Angle:39.9683, Distance:809.0
+Step Height: 89, Step Distance: 519
+
+
+
+---------- 28 time scan ----------
+all data: 378
+error data: 13
+!!! STEP FOUND AHEAD !!!
+Angle:39.9518, Distance:808.0
+Step Height: 90, Step Distance: 518
+
+
+
+---------- 29 time scan ----------
+all data: 378
+error data: 14
+!!! STEP FOUND AHEAD !!!
+Angle:39.9188, Distance:806.0
+Step Height: 91, Step Distance: 517
+
+
+
+---------- 30 time scan ----------
+all data: 378
+error data: 14
+!!! STEP FOUND AHEAD !!!
+Angle:39.9023, Distance:806.0
+Step Height: 91, Step Distance: 517
+
+
+
+---------- 31 time scan ----------
+all data: 378
+error data: 15
+!!! STEP FOUND AHEAD !!!
+Angle:39.8749, Distance:806.0
+Step Height: 91, Step Distance: 516
+
+
+
+---------- 32 time scan ----------
+all data: 378
+error data: 16
+!!! STEP FOUND AHEAD !!!
+Angle:39.809, Distance:805.0
+Step Height: 91, Step Distance: 515
+
+
+
+---------- 33 time scan ----------
+all data: 378
+error data: 14
+!!! STEP FOUND AHEAD !!!
+Angle:39.809, Distance:805.0
+Step Height: 91, Step Distance: 515
+
+
+
+---------- 34 time scan ----------
+all data: 378
+error data: 13
+!!! STEP FOUND AHEAD !!!
+Angle:39.7925, Distance:806.0
+Step Height: 90, Step Distance: 515
+
+
+
+---------- 35 time scan ----------
+all data: 378
+error data: 14
+!!! STEP FOUND AHEAD !!!
+Angle:39.9023, Distance:806.0
+Step Height: 91, Step Distance: 517
+
+
+
+---------- 36 time scan ----------
+all data: 378
+error data: 13
+!!! STEP FOUND AHEAD !!!
+Angle:39.8254, Distance:806.0
+Step Height: 90, Step Distance: 516
+
+
+
+---------- 37 time scan ----------
+all data: 378
+error data: 14
+!!! STEP FOUND AHEAD !!!
+Angle:39.8584, Distance:805.0
+Step Height: 92, Step Distance: 515
+
+
+
+---------- 38 time scan ----------
+all data: 378
+error data: 16
+!!! STEP FOUND AHEAD !!!
+Angle:39.8419, Distance:805.0
+Step Height: 91, Step Distance: 515
