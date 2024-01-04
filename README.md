@@ -13,17 +13,17 @@ Through experiments, we have found that our proposed algorithm can detect steps 
 <img src = './results/demo.gif' alt='drawing' height='400'/>
 <img src = './results/demo_JP.gif' alt='drawing' height='400'/>
 
-## C++
+### C++
 Although this sensor uses the C++ SDK [Slamtec RPLIDAR Public SDK for C++](https://github.com/Slamtec/rplidar_sdk) as you can follow the following steps to obtain the 2D point clouds, but the speed is not obviously as fast as python. And the compilation time and code writing time are longer than python.
 
-#### compile
+- compile
 ```
 open solution "./workspaces/vc14/sdk_and_demo.sln" in visual studio 2019
 edit c++ code "./app/ultra_simple/main.cpp"
 build solution
 executive file "./output/win32/Debug/ultra_simple.exe" will be created
 ```
-#### execute to get 2D point cloud
+- execute to get 2D point cloud
 ```
 cd ./RPLiDAR_SDK/output/win32/Debug
 ultra_simple --channel --serial \\.\com6 1000000 # CUI
@@ -32,18 +32,28 @@ frame_grabber --channel --serial \\.\com6 1000000 # GUI
 
 
 # Usage
-Therefore, we use this python SDK [PyRPLiDAR](https://github.com/Hyun-je/pyrplidar) to　obtain raw 2D point clouds in real time by using 2D LiDAR with a serial interface.
+Therefore, we use this python SDK [PyRPLiDAR](https://github.com/Hyun-je/pyrplidar) to obtain raw 2D point clouds in real time by using 2D LiDAR with a serial interface.
 
-## Dependencies 
+### Dependencies 
 ```
 python=3.8
 pandas
-scipy
+numpy
 pyrplidar
+matplotlib
+scipy
 ```
 
-# Demo & experiments
-## Step/ditch detection and distance/height estimation via left/right monocular LiDAR
+### Data & tutorial
+Long-term real-time data requires the use of the 2D LiDAR, so we have placed the following data and code examples for a short period of time for reference.
+```
+samples_step_detection.ipynb
+output_zhang_ascend.csv
+output_zhang_descend.csv
+```
+
+### Demo & experiments
+- Step/ditch detection and distance/height estimation via left/right monocular LiDAR
 
 <img src = './results/1_lidar_results.png' alt='drawing' height='400'/>
 
@@ -51,7 +61,7 @@ pyrplidar
 step_detection_1LiDAR_l.py or step_detection_1LiDAR_r.py
 ```
 
-## Step/ditch direction estimation via left+right binocular LiDARs
+- Step/ditch direction estimation via left+right binocular LiDARs
 
 <img src = './results/2_lidars_results.png' alt='drawing' height='400'/>
 
@@ -59,7 +69,7 @@ step_detection_1LiDAR_l.py or step_detection_1LiDAR_r.py
 step_detection_2LiDARs.py
 ```
 
-## Gaussian filter based time series due to vibration problem
+- Gaussian filter based time series due to vibration problem
 
 <img src = './results/time_series_for_vibration.png' alt='drawing' height='400'/>
 
