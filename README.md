@@ -1,6 +1,11 @@
 # StepDetectionVia2DLiDAR
 This paper [Development of a Safety Assistance System Based on Computer Vision for Mobility Scooters](https://www.jstage.jst.go.jp/article/sss/2023/0/2023_19/_pdf) has been accpeted by ISCIE International Symposium on Stochastic Systems Theory and its Applications (ISCIE-SSS 2022).
 
+### Citation
+```
+B. Zhang and M. Tanaka, “Development of a Safety Assistance System Based on Computer Vision for Mobility Scooters,” Proceedings of the 54th ISCIE International Symposium on Stochastic Systems Theory and Its Applications (SSS 2022), pp. 19-27, 2022.
+```
+
 <img src = './figs/ditch_detection_flowchart.jpg' alt='drawing' height='250'/>
 <img src = './figs/step_detection_flowchart.jpg' alt='drawing' height='250'/>
 
